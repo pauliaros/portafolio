@@ -53,3 +53,6 @@ $(document).ready(function() {
 jQuery(document.links).filter(function() { //this function gives all links within the document the attribute "_blank", which allows to open it in a new window
  return this.hostname != window.location.hostname;
 }) .attr('target', '_blank');
+
+
+
