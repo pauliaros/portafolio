@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin-left: 18%;
+   	box-shadow: none;
+	ul a{
+    	color: white;
+    	display: inline-block;
+	}
+}
+
+#el-nav{
+    background-image: url(../img/jesus-kiteque-224069.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+#holder{
+    font-size: 17px;
+    color: #A4A4A4;
+    
+}
+.texto-principal h2{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: #504F4F;
+}
+
+#sobre-mi{
+    background-color: whitesmoke;
+    padding: 3%;
+}
+
+.sobremi-title{
+    font-family: 'Amatic SC', cursive;
+    color: #0CD3A1;
+    font-weight: bold;
+}
+
+.sobremi{
+    color:#504F4F;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.perfil{
+    margin-top: 70px;
+    -webkit-box-shadow: 13px 17px 70px -13px rgba(0,0,0,0.75);
+    page-break-aftermoz-box-shadow: 13px 17px 70px -13px rgba(0,0,0,0.75);
+    box-shadow: 13px 17px 70px -13px rgba(0,0,0,0.75);
+}
+
+
+#proyectos {
+    background-color: #0CD3A1;
+    padding: 3%;
+}
+
+.proyectos-title{
+    font-family: 'Amatic SC', cursive;
+    color:whitesmoke;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+
+.jm-item {
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+}
+.jm-item-wrapper {
+    position: relative;
+    padding: 7px;
+    background: #A4A4A4;
+}
+
+.jm-item-image {
+    position: relative;
+    overflow: hidden;
+
+}
+.jm-item-image img {
+    display: block;
+    width: 600px;
+}
+
+.jm-item-title {
+    position: absolute;
+    left: -10px;
+    bottom: 17px;
+    background: #504F4F;
+    line-height: 1.5em;
+    font-weight: normal;
+    padding: 7px 9px 6px;
+    text-transform: uppercase;
+    font-family: 'Squada One', sans-serif;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+.jm-item-overlay {
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.5s ease-in 0s;
+    -moz-transition: opacity 0.5s ease-in 0s;
+    -o-transition: opacity 0.5s ease-in 0s;
+    transition: opacity 0.5s ease-in 0s;
+}
+.jm-item-wrapper:hover .jm-item-overlay {
+    opacity: 0.3;
+}
+
+.jm-item-button {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+}
+.jm-item-button a {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #A4A4A4;
+    text-transform: uppercase;
+    font-family: 'Squada One', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    line-height: 50px;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    text-decoration: none !important;
+    display: block;
+}
+.jm-item-button a:hover {
+    background: #3b3b3b;    
+}
+
+
+.first .jm-item-wrapper:hover .jm-item-button {
+    top: 20%;   
+}
+
+#herramientas{
+    background-color: whitesmoke;
+    padding: 3%;
+}
+
+.skills{
+    color: #0CD3A1;
+    font-size: 90px;
+    margin: 40px;
+    line-height: 100px;
+}
+
+.herramientas-title{
+    font-family: 'Amatic SC', cursive;
+    color: #504F4F;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#contacto{
+    background-color: #504F4F;
+    padding: 3%;
+}
+
+.contacto-title{
+    font-family: 'Amatic SC', cursive;
+    color: whitesmoke;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.email,
+.fono,
+.locacion{
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 30px;
+    align-items: center;
+}
+
+.contacto-icono{
+    color: #0CD3A1;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.redes-icono{
+    color: #0CD3A1;
+    font-size: 70px;
+    margin-right:15px;
+    
+}
+
+#pie{
+    background-color: #A4A4A4;
+    padding: 1%;
+}
+
+.icono-pie{
+    color: #0CD3A1;
+}
+
+.texto-pie{
+    color: whitesmoke;
+    font-size: 17px;
+}
